@@ -13,6 +13,24 @@
 .border-w5 {
   border-width: 5px; }
 
+.border-round {
+  border-radius: 100%; }
+
+.border-r2 {
+  border-radius: 2px; }
+
+.border-r4 {
+  border-radius: 4px; }
+
+.border-r6 {
+  border-radius: 6px; }
+
+.border-r8 {
+  border-radius: 8px; }
+
+.border-r10 {
+  border-radius: 10px; }
+
 .border-c-black {
   border-color: #000; }
 
@@ -126,6 +144,21 @@
 
 .border-top-w5 {
   border-top-width: 5px; }
+
+.border-top-r2 {
+  border-top-radius: 2px; }
+
+.border-top-r4 {
+  border-top-radius: 4px; }
+
+.border-top-r6 {
+  border-top-radius: 6px; }
+
+.border-top-r8 {
+  border-top-radius: 8px; }
+
+.border-top-r10 {
+  border-top-radius: 10px; }
 
 .border-top-c-black {
   border-top-color: #000; }
@@ -241,6 +274,21 @@
 .border-right-w5 {
   border-right-width: 5px; }
 
+.border-right-r2 {
+  border-right-radius: 2px; }
+
+.border-right-r4 {
+  border-right-radius: 4px; }
+
+.border-right-r6 {
+  border-right-radius: 6px; }
+
+.border-right-r8 {
+  border-right-radius: 8px; }
+
+.border-right-r10 {
+  border-right-radius: 10px; }
+
 .border-right-c-black {
   border-right-color: #000; }
 
@@ -354,6 +402,21 @@
 
 .border-bottom-w5 {
   border-bottom-width: 5px; }
+
+.border-bottom-r2 {
+  border-bottom-radius: 2px; }
+
+.border-bottom-r4 {
+  border-bottom-radius: 4px; }
+
+.border-bottom-r6 {
+  border-bottom-radius: 6px; }
+
+.border-bottom-r8 {
+  border-bottom-radius: 8px; }
+
+.border-bottom-r10 {
+  border-bottom-radius: 10px; }
 
 .border-bottom-c-black {
   border-bottom-color: #000; }
@@ -469,6 +532,21 @@
 .border-left-w5 {
   border-left-width: 5px; }
 
+.border-left-r2 {
+  border-left-radius: 2px; }
+
+.border-left-r4 {
+  border-left-radius: 4px; }
+
+.border-left-r6 {
+  border-left-radius: 6px; }
+
+.border-left-r8 {
+  border-left-radius: 8px; }
+
+.border-left-r10 {
+  border-left-radius: 10px; }
+
 .border-left-c-black {
   border-left-color: #000; }
 
@@ -574,17 +652,27 @@
     border-top-width: 0 !important; }
     .no-border-top-style {
       border-top-style: none !important; }
+    .no-border-top-radius {
+      border-top-radius: none !important; }
   .no-border-right {
     border-right-width: 0 !important; }
     .no-border-right-style {
       border-right-style: none !important; }
+    .no-border-right-radius {
+      border-right-radius: none !important; }
   .no-border-bottom {
     border-bottom-width: 0 !important; }
     .no-border-bottom-style {
       border-bottom-style: none !important; }
+    .no-border-bottom-radius {
+      border-bottom-radius: none !important; }
   .no-border-left {
     border-left-width: 0 !important; }
     .no-border-left-style {
       border-left-style: none !important; }
+    .no-border-left-radius {
+      border-left-radius: none !important; }
   .no-border-style {
     border-style: none !important; }
+  .no-border-radius {
+    border-radius: none !important; }
