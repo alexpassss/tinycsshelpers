@@ -4,6 +4,9 @@
 .d-inline {display: inline;}
 .d-table {display: table;}
 .d-table-cell {display: table-cell;}
+.show {display: block;}
+.hide {display: none;}
+.hidden {visibility: hidden;}
 @media all and (max-width: 575px) {
     .xs-d-none {display: none;}
     .xs-d-block {display: block;}
@@ -11,6 +14,9 @@
     .xs-d-inline {display: inline;}
     .xs-d-table {display: table;}
     .xs-d-table-cell {display: table-cell;}
+    .xs-show {display: block;}
+    .xs-hide {display: none;}
+    .xs-hidden {visibility: hidden;}
 }
 @media all and (min-width: 576px) {
     .sm-d-none {display: none;}
@@ -19,6 +25,9 @@
     .sm-d-inline {display: inline;}
     .sm-d-table {display: table;}
     .sm-d-table-cell {display: table-cell;}
+    .sm-show {display: block;}
+    .sm-hide {display: none;}
+    .sm-hidden {visibility: hidden;}
 }
 @media all and (min-width: 768px) {
     .md-d-none {display: none;}
@@ -27,6 +36,9 @@
     .md-d-inline {display: inline;}
     .md-d-table {display: table;}
     .md-d-table-cell {display: table-cell;}
+    .md-show {display: block;}
+    .md-hide {display: none;}
+    .md-hidden {visibility: hidden;}
 }
 @media all and (min-width: 960px) {
     .lg-d-none {display: none;}
@@ -35,6 +47,9 @@
     .lg-d-inline {display: inline;}
     .lg-d-table {display: table;}
     .lg-d-table-cell {display: table-cell;}
+    .lg-show {display: block;}
+    .lg-hide {display: none;}
+    .lg-hidden {visibility: hidden;}
 }
 @media all and (min-width: 1140px) {
     .xl-d-none {display: none;}
@@ -43,4 +58,7 @@
     .xl-d-inline {display: inline;}
     .xl-d-table {display: table;}
     .xl-d-table-cell {display: table-cell;}
+    .xl-show {display: block;}
+    .xl-hide {display: none;}
+    .xl-hidden {visibility: hidden;}
 }
