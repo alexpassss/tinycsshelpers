@@ -44,7 +44,7 @@
     &-ridge {border-style: ridge;}
     &-inset {border-style: inset;}
     &-outset {border-style: outset;}
-    &-top {
+    &-t {
         &-w1 {border-top-width: 1px;}
         &-w2 {border-top-width: 2px;}
         &-w3 {border-top-width: 3px;}
@@ -89,7 +89,7 @@
         &-inset {border-top-style: inset;}
         &-outset {border-top-style: outset;}
     }
-    &-right {
+    &-r {
         &-w1 {border-right-width: 1px;}
         &-w2 {border-right-width: 2px;}
         &-w3 {border-right-width: 3px;}
@@ -134,7 +134,7 @@
         &-inset {border-right-style: inset;}
         &-outset {border-right-style: outset;}
     }
-    &-bottom {
+    &-b {
         &-w1 {border-bottom-width: 1px;}
         &-w2 {border-bottom-width: 2px;}
         &-w3 {border-bottom-width: 3px;}
@@ -179,7 +179,7 @@
         &-inset {border-bottom-style: inset;}
         &-outset {border-bottom-style: outset;}
     }
-    &-left {
+    &-l {
         &-w1 {border-left-width: 1px;}
         &-w2 {border-left-width: 2px;}
         &-w3 {border-left-width: 3px;}
@@ -227,22 +227,22 @@
 }
 .no-border {
     border-width: 0 !important;
-    &-top {
+    &-t {
         border-top-width: 0 !important;
         &-style {border-top-style: none !important;}
         &-radius {border-top-radius: none !important;}
     }
-    &-right {
+    &-r {
         border-right-width: 0 !important;
         &-style {border-right-style: none !important;}
         &-radius {border-right-radius: none !important;}
     }
-    &-bottom {
+    &-b {
         border-bottom-width: 0 !important;
         &-style {border-bottom-style: none !important;}
         &-radius {border-bottom-radius: none !important;}
     }
-    &-left {
+    &-l {
         border-left-width: 0 !important;
         &-style {border-left-style: none !important;}
         &-radius {border-left-radius: none !important;}
