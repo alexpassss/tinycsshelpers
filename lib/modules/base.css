@@ -2886,3 +2886,180 @@ template {
 
 .c-danger {
   color: #B83D3D; }
+
+.pos-relative {
+  position: relative; }
+
+.pos-fixed {
+  position: fixed; }
+
+.pos-absolute {
+  position: absolute; }
+
+.pos-t {
+  top: 0; }
+
+.pos-r {
+  right: 0; }
+
+.pos-b {
+  bottom: 0; }
+
+.pos-l {
+  left: 0; }
+
+.pos-tr {
+  top: 0;
+  right: 0; }
+
+.pos-tl {
+  top: 0;
+  left: 0; }
+
+.pos-br {
+  bottom: 0;
+  right: 0; }
+
+.pos-bl {
+  bottom: 0;
+  left: 0; }
+
+@media all and (max-width: 575px) {
+  .xs-pos-relative {
+    position: relative; }
+  .xs-pos-fixed {
+    position: fixed; }
+  .xs-pos-absolute {
+    position: absolute; }
+  .xs-pos-t {
+    top: 0; }
+  .xs-pos-r {
+    right: 0; }
+  .xs-pos-b {
+    bottom: 0; }
+  .xs-pos-l {
+    left: 0; }
+  .xs-pos-tr {
+    top: 0;
+    right: 0; }
+  .xs-pos-tl {
+    top: 0;
+    left: 0; }
+  .xs-pos-br {
+    bottom: 0;
+    right: 0; }
+  .xs-pos-bl {
+    bottom: 0;
+    left: 0; } }
+
+@media all and (min-width: 576px) {
+  .sm-pos-relative {
+    position: relative; }
+  .sm-pos-fixed {
+    position: fixed; }
+  .sm-pos-absolute {
+    position: absolute; }
+  .sm-pos-t {
+    top: 0; }
+  .sm-pos-r {
+    right: 0; }
+  .sm-pos-b {
+    bottom: 0; }
+  .sm-pos-l {
+    left: 0; }
+  .sm-pos-tr {
+    top: 0;
+    right: 0; }
+  .sm-pos-tl {
+    top: 0;
+    left: 0; }
+  .sm-pos-br {
+    bottom: 0;
+    right: 0; }
+  .sm-pos-bl {
+    bottom: 0;
+    left: 0; } }
+
+@media all and (min-width: 768px) {
+  .md-pos-relative {
+    position: relative; }
+  .md-pos-fixed {
+    position: fixed; }
+  .md-pos-absolute {
+    position: absolute; }
+  .md-pos-t {
+    top: 0; }
+  .md-pos-r {
+    right: 0; }
+  .md-pos-b {
+    bottom: 0; }
+  .md-pos-l {
+    left: 0; }
+  .md-pos-tr {
+    top: 0;
+    right: 0; }
+  .md-pos-tl {
+    top: 0;
+    left: 0; }
+  .md-pos-br {
+    bottom: 0;
+    right: 0; }
+  .md-pos-bl {
+    bottom: 0;
+    left: 0; } }
+
+@media all and (min-width: 960px) {
+  .lg-pos-relative {
+    position: relative; }
+  .lg-pos-fixed {
+    position: fixed; }
+  .lg-pos-absolute {
+    position: absolute; }
+  .lg-pos-t {
+    top: 0; }
+  .lg-pos-r {
+    right: 0; }
+  .lg-pos-b {
+    bottom: 0; }
+  .lg-pos-l {
+    left: 0; }
+  .lg-pos-tr {
+    top: 0;
+    right: 0; }
+  .lg-pos-tl {
+    top: 0;
+    left: 0; }
+  .lg-pos-br {
+    bottom: 0;
+    right: 0; }
+  .lg-pos-bl {
+    bottom: 0;
+    left: 0; } }
+
+@media all and (min-width: 1140px) {
+  .xl-pos-relative {
+    position: relative; }
+  .xl-pos-fixed {
+    position: fixed; }
+  .xl-pos-absolute {
+    position: absolute; }
+  .xl-pos-t {
+    top: 0; }
+  .xl-pos-r {
+    right: 0; }
+  .xl-pos-b {
+    bottom: 0; }
+  .xl-pos-l {
+    left: 0; }
+  .xl-pos-tr {
+    top: 0;
+    right: 0; }
+  .xl-pos-tl {
+    top: 0;
+    left: 0; }
+  .xl-pos-br {
+    bottom: 0;
+    right: 0; }
+  .xl-pos-bl {
+    bottom: 0;
+    left: 0; } }
