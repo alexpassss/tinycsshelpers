@@ -250,3 +250,83 @@
     &-style {border-style: none !important;}
     &-radius {border-radius: none !important;}
 }
+@media all and (max-width: 575px) {
+    .xs-border {
+        &-w1 {border-width: 1px;}
+        &-w2 {border-width: 2px;}
+        &-w3 {border-width: 3px;}
+        &-w4 {border-width: 4px;}
+        &-w5 {border-width: 5px;}
+    }
+    .xs-no-border {
+        border-width: 0 !important;
+        &-t {border-top-width: 0 !important;}
+        &-r {border-right-width: 0 !important;}
+        &-b {border-bottom-width: 0 !important;}
+        &-l {border-left-width: 0 !important;}
+    }
+}
+@media all and (min-width: 576px) {
+    .sm-border {
+        &-w1 {border-width: 1px;}
+        &-w2 {border-width: 2px;}
+        &-w3 {border-width: 3px;}
+        &-w4 {border-width: 4px;}
+        &-w5 {border-width: 5px;}
+    }
+    .sm-no-border {
+        border-width: 0 !important;
+        &-t {border-top-width: 0 !important;}
+        &-r {border-right-width: 0 !important;}
+        &-b {border-bottom-width: 0 !important;}
+        &-l {border-left-width: 0 !important;}
+    }
+}
+@media all and (min-width: 768px) {
+    .md-border {
+        &-w1 {border-width: 1px;}
+        &-w2 {border-width: 2px;}
+        &-w3 {border-width: 3px;}
+        &-w4 {border-width: 4px;}
+        &-w5 {border-width: 5px;}
+    }
+    .md-no-border {
+        border-width: 0 !important;
+        &-t {border-top-width: 0 !important;}
+        &-r {border-right-width: 0 !important;}
+        &-b {border-bottom-width: 0 !important;}
+        &-l {border-left-width: 0 !important;}
+    }
+}
+@media all and (min-width: 960px) {
+    .lg-border {
+        &-w1 {border-width: 1px;}
+        &-w2 {border-width: 2px;}
+        &-w3 {border-width: 3px;}
+        &-w4 {border-width: 4px;}
+        &-w5 {border-width: 5px;}
+    }
+    .lg-no-border {
+        border-width: 0 !important;
+        &-t {border-top-width: 0 !important;}
+        &-r {border-right-width: 0 !important;}
+        &-b {border-bottom-width: 0 !important;}
+        &-l {border-left-width: 0 !important;}
+    }
+}
+@media all and (min-width: 1140px) {
+    .xl-border {
+        &-w1 {border-width: 1px;}
+        &-w2 {border-width: 2px;}
+        &-w3 {border-width: 3px;}
+        &-w4 {border-width: 4px;}
+        &-w5 {border-width: 5px;}
+    }
+    .xl-no-border {
+        border-width: 0 !important;
+        &-t {border-top-width: 0 !important;}
+        &-r {border-right-width: 0 !important;}
+        &-b {border-bottom-width: 0 !important;}
+        &-l {border-left-width: 0 !important;}
+    }
+}
