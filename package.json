@@ -1,0 +1,34 @@
+{
+  "name": "tinycsshelpers",
+  "version": "1.0.0",
+  "description": "Small CSS library which consists of helpful and popular CSS helpers and grid systems.",
+  "main": "index.html",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpassss/tinycsshelpers.git"
+  },
+  "keywords": [
+    "css",
+    "css",
+    "framework",
+    "css",
+    "library",
+    "css",
+    "helpers"
+  ],
+  "author": "Oleksiy Pastukhov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexpassss/tinycsshelpers/issues"
+  },
+  "homepage": "https://github.com/alexpassss/tinycsshelpers#readme",
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

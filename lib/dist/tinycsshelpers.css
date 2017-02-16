@@ -1,0 +1,1041 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+.border-w1 {
+  border-width: 1px; }
+
+.border-w2 {
+  border-width: 2px; }
+
+.border-w3 {
+  border-width: 3px; }
+
+.border-w4 {
+  border-width: 4px; }
+
+.border-w5 {
+  border-width: 5px; }
+
+.border-c-black {
+  border-color: #000; }
+
+.border-c-grey-1 {
+  border-color: #2E2E2E; }
+
+.border-c-grey-2 {
+  border-color: #424242; }
+
+.border-c-grey-3 {
+  border-color: #585858; }
+
+.border-c-grey-4 {
+  border-color: #6E6E6E; }
+
+.border-c-grey-5 {
+  border-color: #848484; }
+
+.border-c-grey-6 {
+  border-color: #A4A4A4; }
+
+.border-c-grey-7 {
+  border-color: #BDBDBD; }
+
+.border-c-grey-8 {
+  border-color: #D8D8D8; }
+
+.border-c-grey-9 {
+  border-color: #E6E6E6; }
+
+.border-c-grey-10 {
+  border-color: #F2F2F2; }
+
+.border-c-white {
+  border-color: #fff; }
+
+.border-c-theme-1 {
+  border-color: #DF9A62; }
+
+.border-c-theme-2 {
+  border-color: #C38E64; }
+
+.border-c-theme-3 {
+  border-color: #B8733D; }
+
+.border-c-theme-4 {
+  border-color: #E7A876; }
+
+.border-c-theme-5 {
+  border-color: #E7AF83; }
+
+.border-c-theme-6 {
+  border-color: #3C8885; }
+
+.border-c-theme-7 {
+  border-color: #3C7774; }
+
+.border-c-theme-8 {
+  border-color: #25706D; }
+
+.border-c-theme-9 {
+  border-color: #54A5A2; }
+
+.border-c-theme-10 {
+  border-color: #5EA5A3; }
+
+.border-c-success {
+  border-color: #5AA035; }
+
+.border-c-warning {
+  border-color: #B87D3D; }
+
+.border-c-danger {
+  border-color: #B83D3D; }
+
+.border-dotted {
+  border-style: dotted; }
+
+.border-dashed {
+  border-style: dashed; }
+
+.border-solid {
+  border-style: solid; }
+
+.border-double {
+  border-style: double; }
+
+.border-groove {
+  border-style: groove; }
+
+.border-ridge {
+  border-style: ridge; }
+
+.border-inset {
+  border-style: inset; }
+
+.border-outset {
+  border-style: outset; }
+
+.border-top-w1 {
+  border-top-width: 1px; }
+
+.border-top-w2 {
+  border-top-width: 2px; }
+
+.border-top-w3 {
+  border-top-width: 3px; }
+
+.border-top-w4 {
+  border-top-width: 4px; }
+
+.border-top-w5 {
+  border-top-width: 5px; }
+
+.border-top-c-black {
+  border-top-color: #000; }
+
+.border-top-c-grey-1 {
+  border-top-color: #2E2E2E; }
+
+.border-top-c-grey-2 {
+  border-top-color: #424242; }
+
+.border-top-c-grey-3 {
+  border-top-color: #585858; }
+
+.border-top-c-grey-4 {
+  border-top-color: #6E6E6E; }
+
+.border-top-c-grey-5 {
+  border-top-color: #848484; }
+
+.border-top-c-grey-6 {
+  border-top-color: #A4A4A4; }
+
+.border-top-c-grey-7 {
+  border-top-color: #BDBDBD; }
+
+.border-top-c-grey-8 {
+  border-top-color: #D8D8D8; }
+
+.border-top-c-grey-9 {
+  border-top-color: #E6E6E6; }
+
+.border-top-c-grey-10 {
+  border-top-color: #F2F2F2; }
+
+.border-top-c-white {
+  border-top-color: #fff; }
+
+.border-top-c-theme-1 {
+  border-top-color: #DF9A62; }
+
+.border-top-c-theme-2 {
+  border-top-color: #C38E64; }
+
+.border-top-c-theme-3 {
+  border-top-color: #B8733D; }
+
+.border-top-c-theme-4 {
+  border-top-color: #E7A876; }
+
+.border-top-c-theme-5 {
+  border-top-color: #E7AF83; }
+
+.border-top-c-theme-6 {
+  border-top-color: #3C8885; }
+
+.border-top-c-theme-7 {
+  border-top-color: #3C7774; }
+
+.border-top-c-theme-8 {
+  border-top-color: #25706D; }
+
+.border-top-c-theme-9 {
+  border-top-color: #54A5A2; }
+
+.border-top-c-theme-10 {
+  border-top-color: #5EA5A3; }
+
+.border-top-c-success {
+  border-top-color: #5AA035; }
+
+.border-top-c-warning {
+  border-top-color: #B87D3D; }
+
+.border-top-c-danger {
+  border-top-color: #B83D3D; }
+
+.border-top-dotted {
+  border-top-style: dotted; }
+
+.border-top-dashed {
+  border-top-style: dashed; }
+
+.border-top-solid {
+  border-top-style: solid; }
+
+.border-top-double {
+  border-top-style: double; }
+
+.border-top-groove {
+  border-top-style: groove; }
+
+.border-top-ridge {
+  border-top-style: ridge; }
+
+.border-top-inset {
+  border-top-style: inset; }
+
+.border-top-outset {
+  border-top-style: outset; }
+
+.border-right-w1 {
+  border-right-width: 1px; }
+
+.border-right-w2 {
+  border-right-width: 2px; }
+
+.border-right-w3 {
+  border-right-width: 3px; }
+
+.border-right-w4 {
+  border-right-width: 4px; }
+
+.border-right-w5 {
+  border-right-width: 5px; }
+
+.border-right-c-black {
+  border-right-color: #000; }
+
+.border-right-c-grey-1 {
+  border-right-color: #2E2E2E; }
+
+.border-right-c-grey-2 {
+  border-right-color: #424242; }
+
+.border-right-c-grey-3 {
+  border-right-color: #585858; }
+
+.border-right-c-grey-4 {
+  border-right-color: #6E6E6E; }
+
+.border-right-c-grey-5 {
+  border-right-color: #848484; }
+
+.border-right-c-grey-6 {
+  border-right-color: #A4A4A4; }
+
+.border-right-c-grey-7 {
+  border-right-color: #BDBDBD; }
+
+.border-right-c-grey-8 {
+  border-right-color: #D8D8D8; }
+
+.border-right-c-grey-9 {
+  border-right-color: #E6E6E6; }
+
+.border-right-c-grey-10 {
+  border-right-color: #F2F2F2; }
+
+.border-right-c-white {
+  border-right-color: #fff; }
+
+.border-right-c-theme-1 {
+  border-right-color: #DF9A62; }
+
+.border-right-c-theme-2 {
+  border-right-color: #C38E64; }
+
+.border-right-c-theme-3 {
+  border-right-color: #B8733D; }
+
+.border-right-c-theme-4 {
+  border-right-color: #E7A876; }
+
+.border-right-c-theme-5 {
+  border-right-color: #E7AF83; }
+
+.border-right-c-theme-6 {
+  border-right-color: #3C8885; }
+
+.border-right-c-theme-7 {
+  border-right-color: #3C7774; }
+
+.border-right-c-theme-8 {
+  border-right-color: #25706D; }
+
+.border-right-c-theme-9 {
+  border-right-color: #54A5A2; }
+
+.border-right-c-theme-10 {
+  border-right-color: #5EA5A3; }
+
+.border-right-c-success {
+  border-right-color: #5AA035; }
+
+.border-right-c-warning {
+  border-right-color: #B87D3D; }
+
+.border-right-c-danger {
+  border-right-color: #B83D3D; }
+
+.border-right-dotted {
+  border-right-style: dotted; }
+
+.border-right-dashed {
+  border-right-style: dashed; }
+
+.border-right-solid {
+  border-right-style: solid; }
+
+.border-right-double {
+  border-right-style: double; }
+
+.border-right-groove {
+  border-right-style: groove; }
+
+.border-right-ridge {
+  border-right-style: ridge; }
+
+.border-right-inset {
+  border-right-style: inset; }
+
+.border-right-outset {
+  border-right-style: outset; }
+
+.border-bottom-w1 {
+  border-bottom-width: 1px; }
+
+.border-bottom-w2 {
+  border-bottom-width: 2px; }
+
+.border-bottom-w3 {
+  border-bottom-width: 3px; }
+
+.border-bottom-w4 {
+  border-bottom-width: 4px; }
+
+.border-bottom-w5 {
+  border-bottom-width: 5px; }
+
+.border-bottom-c-black {
+  border-bottom-color: #000; }
+
+.border-bottom-c-grey-1 {
+  border-bottom-color: #2E2E2E; }
+
+.border-bottom-c-grey-2 {
+  border-bottom-color: #424242; }
+
+.border-bottom-c-grey-3 {
+  border-bottom-color: #585858; }
+
+.border-bottom-c-grey-4 {
+  border-bottom-color: #6E6E6E; }
+
+.border-bottom-c-grey-5 {
+  border-bottom-color: #848484; }
+
+.border-bottom-c-grey-6 {
+  border-bottom-color: #A4A4A4; }
+
+.border-bottom-c-grey-7 {
+  border-bottom-color: #BDBDBD; }
+
+.border-bottom-c-grey-8 {
+  border-bottom-color: #D8D8D8; }
+
+.border-bottom-c-grey-9 {
+  border-bottom-color: #E6E6E6; }
+
+.border-bottom-c-grey-10 {
+  border-bottom-color: #F2F2F2; }
+
+.border-bottom-c-white {
+  border-bottom-color: #fff; }
+
+.border-bottom-c-theme-1 {
+  border-bottom-color: #DF9A62; }
+
+.border-bottom-c-theme-2 {
+  border-bottom-color: #C38E64; }
+
+.border-bottom-c-theme-3 {
+  border-bottom-color: #B8733D; }
+
+.border-bottom-c-theme-4 {
+  border-bottom-color: #E7A876; }
+
+.border-bottom-c-theme-5 {
+  border-bottom-color: #E7AF83; }
+
+.border-bottom-c-theme-6 {
+  border-bottom-color: #3C8885; }
+
+.border-bottom-c-theme-7 {
+  border-bottom-color: #3C7774; }
+
+.border-bottom-c-theme-8 {
+  border-bottom-color: #25706D; }
+
+.border-bottom-c-theme-9 {
+  border-bottom-color: #54A5A2; }
+
+.border-bottom-c-theme-10 {
+  border-bottom-color: #5EA5A3; }
+
+.border-bottom-c-success {
+  border-bottom-color: #5AA035; }
+
+.border-bottom-c-warning {
+  border-bottom-color: #B87D3D; }
+
+.border-bottom-c-danger {
+  border-bottom-color: #B83D3D; }
+
+.border-bottom-dotted {
+  border-bottom-style: dotted; }
+
+.border-bottom-dashed {
+  border-bottom-style: dashed; }
+
+.border-bottom-solid {
+  border-bottom-style: solid; }
+
+.border-bottom-double {
+  border-bottom-style: double; }
+
+.border-bottom-groove {
+  border-bottom-style: groove; }
+
+.border-bottom-ridge {
+  border-bottom-style: ridge; }
+
+.border-bottom-inset {
+  border-bottom-style: inset; }
+
+.border-bottom-outset {
+  border-bottom-style: outset; }
+
+.border-left-w1 {
+  border-left-width: 1px; }
+
+.border-left-w2 {
+  border-left-width: 2px; }
+
+.border-left-w3 {
+  border-left-width: 3px; }
+
+.border-left-w4 {
+  border-left-width: 4px; }
+
+.border-left-w5 {
+  border-left-width: 5px; }
+
+.border-left-c-black {
+  border-left-color: #000; }
+
+.border-left-c-grey-1 {
+  border-left-color: #2E2E2E; }
+
+.border-left-c-grey-2 {
+  border-left-color: #424242; }
+
+.border-left-c-grey-3 {
+  border-left-color: #585858; }
+
+.border-left-c-grey-4 {
+  border-left-color: #6E6E6E; }
+
+.border-left-c-grey-5 {
+  border-left-color: #848484; }
+
+.border-left-c-grey-6 {
+  border-left-color: #A4A4A4; }
+
+.border-left-c-grey-7 {
+  border-left-color: #BDBDBD; }
+
+.border-left-c-grey-8 {
+  border-left-color: #D8D8D8; }
+
+.border-left-c-grey-9 {
+  border-left-color: #E6E6E6; }
+
+.border-left-c-grey-10 {
+  border-left-color: #F2F2F2; }
+
+.border-left-c-white {
+  border-left-color: #fff; }
+
+.border-left-c-theme-1 {
+  border-left-color: #DF9A62; }
+
+.border-left-c-theme-2 {
+  border-left-color: #C38E64; }
+
+.border-left-c-theme-3 {
+  border-left-color: #B8733D; }
+
+.border-left-c-theme-4 {
+  border-left-color: #E7A876; }
+
+.border-left-c-theme-5 {
+  border-left-color: #E7AF83; }
+
+.border-left-c-theme-6 {
+  border-left-color: #3C8885; }
+
+.border-left-c-theme-7 {
+  border-left-color: #3C7774; }
+
+.border-left-c-theme-8 {
+  border-left-color: #25706D; }
+
+.border-left-c-theme-9 {
+  border-left-color: #54A5A2; }
+
+.border-left-c-theme-10 {
+  border-left-color: #5EA5A3; }
+
+.border-left-c-success {
+  border-left-color: #5AA035; }
+
+.border-left-c-warning {
+  border-left-color: #B87D3D; }
+
+.border-left-c-danger {
+  border-left-color: #B83D3D; }
+
+.border-left-dotted {
+  border-left-style: dotted; }
+
+.border-left-dashed {
+  border-left-style: dashed; }
+
+.border-left-solid {
+  border-left-style: solid; }
+
+.border-left-double {
+  border-left-style: double; }
+
+.border-left-groove {
+  border-left-style: groove; }
+
+.border-left-ridge {
+  border-left-style: ridge; }
+
+.border-left-inset {
+  border-left-style: inset; }
+
+.border-left-outset {
+  border-left-style: outset; }
+
+.no-border {
+  border-width: 0 !important; }
+  .no-border-top {
+    border-top-width: 0 !important; }
+    .no-border-top-style {
+      border-top-style: none !important; }
+  .no-border-right {
+    border-right-width: 0 !important; }
+    .no-border-right-style {
+      border-right-style: none !important; }
+  .no-border-bottom {
+    border-bottom-width: 0 !important; }
+    .no-border-bottom-style {
+      border-bottom-style: none !important; }
+  .no-border-left {
+    border-left-width: 0 !important; }
+    .no-border-left-style {
+      border-left-style: none !important; }
+  .no-border-style {
+    border-style: none !important; }

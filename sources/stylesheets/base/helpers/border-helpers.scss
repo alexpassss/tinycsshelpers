@@ -1,0 +1,221 @@
+@import '../../theme/theme';
+.border {
+    &-w1 {border-width: 1px;}
+    &-w2 {border-width: 2px;}
+    &-w3 {border-width: 3px;}
+    &-w4 {border-width: 4px;}
+    &-w5 {border-width: 5px;}
+    &-c-black {border-color: $c-black;}
+    &-c-grey-1 {border-color: $c-grey-first;}
+    &-c-grey-2 {border-color: $c-grey-second;}
+    &-c-grey-3 {border-color: $c-grey-third;}
+    &-c-grey-4 {border-color: $c-grey-fourth;}
+    &-c-grey-5 {border-color: $c-grey-fifth;}
+    &-c-grey-6 {border-color: $c-grey-sixth;}
+    &-c-grey-7 {border-color: $c-grey-seventh;}
+    &-c-grey-8 {border-color: $c-grey-eighth;}
+    &-c-grey-9 {border-color: $c-grey-ninth;}
+    &-c-grey-10 {border-color: $c-grey-tenth;}
+    &-c-white {border-color: $c-white;}
+    &-c-theme-1 {border-color: $c-theme-first;}
+    &-c-theme-2 {border-color: $c-theme-second;}
+    &-c-theme-3 {border-color: $c-theme-third;}
+    &-c-theme-4 {border-color: $c-theme-fourth;}
+    &-c-theme-5 {border-color: $c-theme-fifth;}
+    &-c-theme-6 {border-color: $c-theme-sixth;}
+    &-c-theme-7 {border-color: $c-theme-seventh;}
+    &-c-theme-8 {border-color: $c-theme-eighth;}
+    &-c-theme-9 {border-color: $c-theme-ninth;}
+    &-c-theme-10 {border-color: $c-theme-tenth;}
+    &-c-success {border-color: $c-success;}
+    &-c-warning {border-color: $c-warning;}
+    &-c-danger {border-color: $c-danger;}
+    &-dotted {border-style: dotted;}
+    &-dashed {border-style: dashed;}
+    &-solid {border-style: solid;}
+    &-double {border-style: double;}
+    &-groove {border-style: groove;}
+    &-ridge {border-style: ridge;}
+    &-inset {border-style: inset;}
+    &-outset {border-style: outset;}
+    &-top {
+        &-w1 {border-top-width: 1px;}
+        &-w2 {border-top-width: 2px;}
+        &-w3 {border-top-width: 3px;}
+        &-w4 {border-top-width: 4px;}
+        &-w5 {border-top-width: 5px;}
+        &-c-black {border-top-color: $c-black;}
+        &-c-grey-1 {border-top-color: $c-grey-first;}
+        &-c-grey-2 {border-top-color: $c-grey-second;}
+        &-c-grey-3 {border-top-color: $c-grey-third;}
+        &-c-grey-4 {border-top-color: $c-grey-fourth;}
+        &-c-grey-5 {border-top-color: $c-grey-fifth;}
+        &-c-grey-6 {border-top-color: $c-grey-sixth;}
+        &-c-grey-7 {border-top-color: $c-grey-seventh;}
+        &-c-grey-8 {border-top-color: $c-grey-eighth;}
+        &-c-grey-9 {border-top-color: $c-grey-ninth;}
+        &-c-grey-10 {border-top-color: $c-grey-tenth;}
+        &-c-white {border-top-color: $c-white;}
+        &-c-theme-1 {border-top-color: $c-theme-first;}
+        &-c-theme-2 {border-top-color: $c-theme-second;}
+        &-c-theme-3 {border-top-color: $c-theme-third;}
+        &-c-theme-4 {border-top-color: $c-theme-fourth;}
+        &-c-theme-5 {border-top-color: $c-theme-fifth;}
+        &-c-theme-6 {border-top-color: $c-theme-sixth;}
+        &-c-theme-7 {border-top-color: $c-theme-seventh;}
+        &-c-theme-8 {border-top-color: $c-theme-eighth;}
+        &-c-theme-9 {border-top-color: $c-theme-ninth;}
+        &-c-theme-10 {border-top-color: $c-theme-tenth;}
+        &-c-success {border-top-color: $c-success;}
+        &-c-warning {border-top-color: $c-warning;}
+        &-c-danger {border-top-color: $c-danger;}
+        &-dotted {border-top-style: dotted;}
+        &-dashed {border-top-style: dashed;}
+        &-solid {border-top-style: solid;}
+        &-double {border-top-style: double;}
+        &-groove {border-top-style: groove;}
+        &-ridge {border-top-style: ridge;}
+        &-inset {border-top-style: inset;}
+        &-outset {border-top-style: outset;}
+    }
+    &-right {
+        &-w1 {border-right-width: 1px;}
+        &-w2 {border-right-width: 2px;}
+        &-w3 {border-right-width: 3px;}
+        &-w4 {border-right-width: 4px;}
+        &-w5 {border-right-width: 5px;}
+        &-c-black {border-right-color: $c-black;}
+        &-c-grey-1 {border-right-color: $c-grey-first;}
+        &-c-grey-2 {border-right-color: $c-grey-second;}
+        &-c-grey-3 {border-right-color: $c-grey-third;}
+        &-c-grey-4 {border-right-color: $c-grey-fourth;}
+        &-c-grey-5 {border-right-color: $c-grey-fifth;}
+        &-c-grey-6 {border-right-color: $c-grey-sixth;}
+        &-c-grey-7 {border-right-color: $c-grey-seventh;}
+        &-c-grey-8 {border-right-color: $c-grey-eighth;}
+        &-c-grey-9 {border-right-color: $c-grey-ninth;}
+        &-c-grey-10 {border-right-color: $c-grey-tenth;}
+        &-c-white {border-right-color: $c-white;}
+        &-c-theme-1 {border-right-color: $c-theme-first;}
+        &-c-theme-2 {border-right-color: $c-theme-second;}
+        &-c-theme-3 {border-right-color: $c-theme-third;}
+        &-c-theme-4 {border-right-color: $c-theme-fourth;}
+        &-c-theme-5 {border-right-color: $c-theme-fifth;}
+        &-c-theme-6 {border-right-color: $c-theme-sixth;}
+        &-c-theme-7 {border-right-color: $c-theme-seventh;}
+        &-c-theme-8 {border-right-color: $c-theme-eighth;}
+        &-c-theme-9 {border-right-color: $c-theme-ninth;}
+        &-c-theme-10 {border-right-color: $c-theme-tenth;}
+        &-c-success {border-right-color: $c-success;}
+        &-c-warning {border-right-color: $c-warning;}
+        &-c-danger {border-right-color: $c-danger;}
+        &-dotted {border-right-style: dotted;}
+        &-dashed {border-right-style: dashed;}
+        &-solid {border-right-style: solid;}
+        &-double {border-right-style: double;}
+        &-groove {border-right-style: groove;}
+        &-ridge {border-right-style: ridge;}
+        &-inset {border-right-style: inset;}
+        &-outset {border-right-style: outset;}
+    }
+    &-bottom {
+        &-w1 {border-bottom-width: 1px;}
+        &-w2 {border-bottom-width: 2px;}
+        &-w3 {border-bottom-width: 3px;}
+        &-w4 {border-bottom-width: 4px;}
+        &-w5 {border-bottom-width: 5px;}
+        &-c-black {border-bottom-color: $c-black;}
+        &-c-grey-1 {border-bottom-color: $c-grey-first;}
+        &-c-grey-2 {border-bottom-color: $c-grey-second;}
+        &-c-grey-3 {border-bottom-color: $c-grey-third;}
+        &-c-grey-4 {border-bottom-color: $c-grey-fourth;}
+        &-c-grey-5 {border-bottom-color: $c-grey-fifth;}
+        &-c-grey-6 {border-bottom-color: $c-grey-sixth;}
+        &-c-grey-7 {border-bottom-color: $c-grey-seventh;}
+        &-c-grey-8 {border-bottom-color: $c-grey-eighth;}
+        &-c-grey-9 {border-bottom-color: $c-grey-ninth;}
+        &-c-grey-10 {border-bottom-color: $c-grey-tenth;}
+        &-c-white {border-bottom-color: $c-white;}
+        &-c-theme-1 {border-bottom-color: $c-theme-first;}
+        &-c-theme-2 {border-bottom-color: $c-theme-second;}
+        &-c-theme-3 {border-bottom-color: $c-theme-third;}
+        &-c-theme-4 {border-bottom-color: $c-theme-fourth;}
+        &-c-theme-5 {border-bottom-color: $c-theme-fifth;}
+        &-c-theme-6 {border-bottom-color: $c-theme-sixth;}
+        &-c-theme-7 {border-bottom-color: $c-theme-seventh;}
+        &-c-theme-8 {border-bottom-color: $c-theme-eighth;}
+        &-c-theme-9 {border-bottom-color: $c-theme-ninth;}
+        &-c-theme-10 {border-bottom-color: $c-theme-tenth;}
+        &-c-success {border-bottom-color: $c-success;}
+        &-c-warning {border-bottom-color: $c-warning;}
+        &-c-danger {border-bottom-color: $c-danger;}
+        &-dotted {border-bottom-style: dotted;}
+        &-dashed {border-bottom-style: dashed;}
+        &-solid {border-bottom-style: solid;}
+        &-double {border-bottom-style: double;}
+        &-groove {border-bottom-style: groove;}
+        &-ridge {border-bottom-style: ridge;}
+        &-inset {border-bottom-style: inset;}
+        &-outset {border-bottom-style: outset;}
+    }
+    &-left {
+        &-w1 {border-left-width: 1px;}
+        &-w2 {border-left-width: 2px;}
+        &-w3 {border-left-width: 3px;}
+        &-w4 {border-left-width: 4px;}
+        &-w5 {border-left-width: 5px;}
+        &-c-black {border-left-color: $c-black;}
+        &-c-grey-1 {border-left-color: $c-grey-first;}
+        &-c-grey-2 {border-left-color: $c-grey-second;}
+        &-c-grey-3 {border-left-color: $c-grey-third;}
+        &-c-grey-4 {border-left-color: $c-grey-fourth;}
+        &-c-grey-5 {border-left-color: $c-grey-fifth;}
+        &-c-grey-6 {border-left-color: $c-grey-sixth;}
+        &-c-grey-7 {border-left-color: $c-grey-seventh;}
+        &-c-grey-8 {border-left-color: $c-grey-eighth;}
+        &-c-grey-9 {border-left-color: $c-grey-ninth;}
+        &-c-grey-10 {border-left-color: $c-grey-tenth;}
+        &-c-white {border-left-color: $c-white;}
+        &-c-theme-1 {border-left-color: $c-theme-first;}
+        &-c-theme-2 {border-left-color: $c-theme-second;}
+        &-c-theme-3 {border-left-color: $c-theme-third;}
+        &-c-theme-4 {border-left-color: $c-theme-fourth;}
+        &-c-theme-5 {border-left-color: $c-theme-fifth;}
+        &-c-theme-6 {border-left-color: $c-theme-sixth;}
+        &-c-theme-7 {border-left-color: $c-theme-seventh;}
+        &-c-theme-8 {border-left-color: $c-theme-eighth;}
+        &-c-theme-9 {border-left-color: $c-theme-ninth;}
+        &-c-theme-10 {border-left-color: $c-theme-tenth;}
+        &-c-success {border-left-color: $c-success;}
+        &-c-warning {border-left-color: $c-warning;}
+        &-c-danger {border-left-color: $c-danger;}
+        &-dotted {border-left-style: dotted;}
+        &-dashed {border-left-style: dashed;}
+        &-solid {border-left-style: solid;}
+        &-double {border-left-style: double;}
+        &-groove {border-left-style: groove;}
+        &-ridge {border-left-style: ridge;}
+        &-inset {border-left-style: inset;}
+        &-outset {border-left-style: outset;}
+    }
+}
+.no-border {
+    border-width: 0 !important;
+    &-top {
+        border-top-width: 0 !important;
+        &-style {border-top-style: none !important;}
+    }
+    &-right {
+        border-right-width: 0 !important;
+        &-style {border-right-style: none !important;}
+    }
+    &-bottom {
+        border-bottom-width: 0 !important;
+        &-style {border-bottom-style: none !important;}
+    }
+    &-left {
+        border-left-width: 0 !important;
+        &-style {border-left-style: none !important;}
+    }
+    &-style {border-style: none !important;}
+}
