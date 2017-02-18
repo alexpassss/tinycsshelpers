@@ -3970,6 +3970,35 @@ template {
 .text-capitalize {
   text-transform: capitalize; }
 
+.text-ellipsis-1, .text-ellipsis-2, .text-ellipsis-3, .text-ellipsis-4, .text-ellipsis-5 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  max-width: 100%; }
+
+.text-ellipsis-1 {
+  white-space: nowrap; }
+
+.text-ellipsis-2, .text-ellipsis-3, .text-ellipsis-4, .text-ellipsis-5 {
+  height: 44px;
+  font-size: 16px;
+  line-height: 22px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
+.text-ellipsis-3 {
+  height: 66px;
+  -webkit-line-clamp: 3; }
+
+.text-ellipsis-4 {
+  height: 88px;
+  -webkit-line-clamp: 4; }
+
+.text-ellipsis-5 {
+  height: 110px;
+  -webkit-line-clamp: 5; }
+
 @media all and (max-width: 575px) {
   .xs-text-l {
     text-align: left; }
@@ -3984,7 +4013,30 @@ template {
   .xs-text-lower {
     text-transform: lowercase; }
   .xs-text-capitalize {
-    text-transform: capitalize; } }
+    text-transform: capitalize; }
+  .xs-text-ellipsis-1, .xs-text-ellipsis-2, .xs-text-ellipsis-3, .xs-text-ellipsis-4, .xs-text-ellipsis-5 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%; }
+  .xs-text-ellipsis-1 {
+    white-space: nowrap; }
+  .xs-text-ellipsis-2, .xs-text-ellipsis-3, .xs-text-ellipsis-4, .xs-text-ellipsis-5 {
+    height: 44px;
+    font-size: 16px;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+  .xs-text-ellipsis-3 {
+    height: 66px;
+    -webkit-line-clamp: 3; }
+  .xs-text-ellipsis-4 {
+    height: 88px;
+    -webkit-line-clamp: 4; }
+  .xs-text-ellipsis-5 {
+    height: 110px;
+    -webkit-line-clamp: 5; } }
 
 @media all and (min-width: 576px) {
   .sm-text-l {
@@ -4000,7 +4052,30 @@ template {
   .sm-text-lower {
     text-transform: lowercase; }
   .sm-text-capitalize {
-    text-transform: capitalize; } }
+    text-transform: capitalize; }
+  .sm-text-ellipsis-1, .sm-text-ellipsis-2, .sm-text-ellipsis-3, .sm-text-ellipsis-4, .sm-text-ellipsis-5 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%; }
+  .sm-text-ellipsis-1 {
+    white-space: nowrap; }
+  .sm-text-ellipsis-2, .sm-text-ellipsis-3, .sm-text-ellipsis-4, .sm-text-ellipsis-5 {
+    height: 44px;
+    font-size: 16px;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+  .sm-text-ellipsis-3 {
+    height: 66px;
+    -webkit-line-clamp: 3; }
+  .sm-text-ellipsis-4 {
+    height: 88px;
+    -webkit-line-clamp: 4; }
+  .sm-text-ellipsis-5 {
+    height: 110px;
+    -webkit-line-clamp: 5; } }
 
 @media all and (min-width: 768px) {
   .md-text-l {
@@ -4016,7 +4091,30 @@ template {
   .md-text-lower {
     text-transform: lowercase; }
   .md-text-capitalize {
-    text-transform: capitalize; } }
+    text-transform: capitalize; }
+  .md-text-ellipsis-1, .md-text-ellipsis-2, .md-text-ellipsis-3, .md-text-ellipsis-4, .md-text-ellipsis-5 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%; }
+  .md-text-ellipsis-1 {
+    white-space: nowrap; }
+  .md-text-ellipsis-2, .md-text-ellipsis-3, .md-text-ellipsis-4, .md-text-ellipsis-5 {
+    height: 44px;
+    font-size: 16px;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+  .md-text-ellipsis-3 {
+    height: 66px;
+    -webkit-line-clamp: 3; }
+  .md-text-ellipsis-4 {
+    height: 88px;
+    -webkit-line-clamp: 4; }
+  .md-text-ellipsis-5 {
+    height: 110px;
+    -webkit-line-clamp: 5; } }
 
 @media all and (min-width: 960px) {
   .lg-text-l {
@@ -4032,7 +4130,30 @@ template {
   .lg-text-lower {
     text-transform: lowercase; }
   .lg-text-capitalize {
-    text-transform: capitalize; } }
+    text-transform: capitalize; }
+  .lg-text-ellipsis-1, .lg-text-ellipsis-2, .lg-text-ellipsis-3, .lg-text-ellipsis-4, .lg-text-ellipsis-5 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%; }
+  .lg-text-ellipsis-1 {
+    white-space: nowrap; }
+  .lg-text-ellipsis-2, .lg-text-ellipsis-3, .lg-text-ellipsis-4, .lg-text-ellipsis-5 {
+    height: 44px;
+    font-size: 16px;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+  .lg-text-ellipsis-3 {
+    height: 66px;
+    -webkit-line-clamp: 3; }
+  .lg-text-ellipsis-4 {
+    height: 88px;
+    -webkit-line-clamp: 4; }
+  .lg-text-ellipsis-5 {
+    height: 110px;
+    -webkit-line-clamp: 5; } }
 
 @media all and (min-width: 1140px) {
   .xl-text-l {
@@ -4048,7 +4169,30 @@ template {
   .xl-text-lower {
     text-transform: lowercase; }
   .xl-text-capitalize {
-    text-transform: capitalize; } }
+    text-transform: capitalize; }
+  .xl-text-ellipsis-1, .xl-text-ellipsis-2, .xl-text-ellipsis-3, .xl-text-ellipsis-4, .xl-text-ellipsis-5 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%; }
+  .xl-text-ellipsis-1 {
+    white-space: nowrap; }
+  .xl-text-ellipsis-2, .xl-text-ellipsis-3, .xl-text-ellipsis-4, .xl-text-ellipsis-5 {
+    height: 44px;
+    font-size: 16px;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+  .xl-text-ellipsis-3 {
+    height: 66px;
+    -webkit-line-clamp: 3; }
+  .xl-text-ellipsis-4 {
+    height: 88px;
+    -webkit-line-clamp: 4; }
+  .xl-text-ellipsis-5 {
+    height: 110px;
+    -webkit-line-clamp: 5; } }
 
 .full-w {
   width: 100%; }

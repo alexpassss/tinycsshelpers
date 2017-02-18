@@ -1,3 +1,5 @@
+@import '../../config/base/base-config';
+
 .text-l {text-align: left;}
 .text-r {text-align: right;}
 .text-c {text-align: center;}
@@ -5,7 +7,26 @@
 .text-upper {text-transform: uppercase;}
 .text-lower {text-transform: lowercase;}
 .text-capitalize {text-transform: capitalize;}
-
+.text-ellipsis {
+    &-1, &-2, &-3, &-4, &-5 {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: block;
+        display: -webkit-box;
+        max-width: 100%;
+    }
+    &-1 {white-space: nowrap;}
+    &-2, &-3, &-4, &-5 {
+        height: $base-line-height*2;
+        font-size: $base-font-size;
+        line-height: $base-line-height;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    &-3 {height: $base-line-height*3;-webkit-line-clamp: 3;}
+    &-4 {height: $base-line-height*4;-webkit-line-clamp: 4;}
+    &-5 {height: $base-line-height*5;-webkit-line-clamp: 5;}
+}
 @media all and (max-width: 575px) {
     .xs-text-l {text-align: left;}
     .xs-text-r {text-align: right;}
@@ -14,6 +35,26 @@
     .xs-text-upper {text-transform: uppercase;}
     .xs-text-lower {text-transform: lowercase;}
     .xs-text-capitalize {text-transform: capitalize;}
+    .xs-text-ellipsis {
+        &-1, &-2, &-3, &-4, &-5 {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            display: -webkit-box;
+            max-width: 100%;
+        }
+        &-1 {white-space: nowrap;}
+        &-2, &-3, &-4, &-5 {
+            height: $base-line-height*2;
+            font-size: $base-font-size;
+            line-height: $base-line-height;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        &-3 {height: $base-line-height*3;-webkit-line-clamp: 3;}
+        &-4 {height: $base-line-height*4;-webkit-line-clamp: 4;}
+        &-5 {height: $base-line-height*5;-webkit-line-clamp: 5;}
+    }
 }
 @media all and (min-width: 576px) {
     .sm-text-l {text-align: left;}
@@ -23,6 +64,26 @@
     .sm-text-upper {text-transform: uppercase;}
     .sm-text-lower {text-transform: lowercase;}
     .sm-text-capitalize {text-transform: capitalize;}
+    .sm-text-ellipsis {
+        &-1, &-2, &-3, &-4, &-5 {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            display: -webkit-box;
+            max-width: 100%;
+        }
+        &-1 {white-space: nowrap;}
+        &-2, &-3, &-4, &-5 {
+            height: $base-line-height*2;
+            font-size: $base-font-size;
+            line-height: $base-line-height;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        &-3 {height: $base-line-height*3;-webkit-line-clamp: 3;}
+        &-4 {height: $base-line-height*4;-webkit-line-clamp: 4;}
+        &-5 {height: $base-line-height*5;-webkit-line-clamp: 5;}
+    }
 }
 @media all and (min-width: 768px) {
     .md-text-l {text-align: left;}
@@ -32,6 +93,26 @@
     .md-text-upper {text-transform: uppercase;}
     .md-text-lower {text-transform: lowercase;}
     .md-text-capitalize {text-transform: capitalize;}
+    .md-text-ellipsis {
+        &-1, &-2, &-3, &-4, &-5 {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            display: -webkit-box;
+            max-width: 100%;
+        }
+        &-1 {white-space: nowrap;}
+        &-2, &-3, &-4, &-5 {
+            height: $base-line-height*2;
+            font-size: $base-font-size;
+            line-height: $base-line-height;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        &-3 {height: $base-line-height*3;-webkit-line-clamp: 3;}
+        &-4 {height: $base-line-height*4;-webkit-line-clamp: 4;}
+        &-5 {height: $base-line-height*5;-webkit-line-clamp: 5;}
+    }
 }
 @media all and (min-width: 960px) {
     .lg-text-l {text-align: left;}
@@ -41,6 +122,26 @@
     .lg-text-upper {text-transform: uppercase;}
     .lg-text-lower {text-transform: lowercase;}
     .lg-text-capitalize {text-transform: capitalize;}
+    .lg-text-ellipsis {
+        &-1, &-2, &-3, &-4, &-5 {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            display: -webkit-box;
+            max-width: 100%;
+        }
+        &-1 {white-space: nowrap;}
+        &-2, &-3, &-4, &-5 {
+            height: $base-line-height*2;
+            font-size: $base-font-size;
+            line-height: $base-line-height;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        &-3 {height: $base-line-height*3;-webkit-line-clamp: 3;}
+        &-4 {height: $base-line-height*4;-webkit-line-clamp: 4;}
+        &-5 {height: $base-line-height*5;-webkit-line-clamp: 5;}
+    }
 }
 @media all and (min-width: 1140px) {
     .xl-text-l {text-align: left;}
@@ -50,4 +151,24 @@
     .xl-text-upper {text-transform: uppercase;}
     .xl-text-lower {text-transform: lowercase;}
     .xl-text-capitalize {text-transform: capitalize;}
+    .xl-text-ellipsis {
+        &-1, &-2, &-3, &-4, &-5 {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            display: -webkit-box;
+            max-width: 100%;
+        }
+        &-1 {white-space: nowrap;}
+        &-2, &-3, &-4, &-5 {
+            height: $base-line-height*2;
+            font-size: $base-font-size;
+            line-height: $base-line-height;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        &-3 {height: $base-line-height*3;-webkit-line-clamp: 3;}
+        &-4 {height: $base-line-height*4;-webkit-line-clamp: 4;}
+        &-5 {height: $base-line-height*5;-webkit-line-clamp: 5;}
+    }
 }
