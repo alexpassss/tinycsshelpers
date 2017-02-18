@@ -1,0 +1,6 @@
+@import '../../config/base/typography/address-config';
+address {
+  margin-bottom: $address-margin-bottom;
+  font-style: normal;
+  line-height: $address-line-height;
+}

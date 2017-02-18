@@ -1,0 +1,26 @@
+@import '../../theme/theme';
+mark, .t-marked {
+    color: $c-grey-first;
+    padding: .2em;
+    background-color: $c-theme-first;
+}
+
+del, .t-del {text-decoration: line-through;}
+s, .t-strikethrough {text-decoration: line-through;}
+ins, .t-inserted {text-decoration: underline;}
+u, .t-underlined {text-decoration: underline;}
+small, .t-small {font-size: 85%;}
+strong, b {font-weight: bold;}
+i, em {font-style: italic;}
+
+.t-overline {text-decoration: overline;}
+.no-t-decor {text-decoration: none;}
+.t-muted {color: $c-grey-fourth;}
+.t-primary {color: $c-theme-first;}
+.t-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}

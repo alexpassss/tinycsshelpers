@@ -1,0 +1,13 @@
+@import '../../config/base/typography/paragraphs-config';
+p {margin: $p-marg;}
+.lead {
+  margin-bottom: $lead-marg-b;
+  font-size: $lead-fs;
+  font-weight: $lead-fw;
+  line-height: $lead-lh;
+}
+@media (min-width: 768px) {
+  .lead {
+    font-size: $lead-md-fs;
+  }
+}

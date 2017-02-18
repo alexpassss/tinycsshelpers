@@ -1,0 +1,50 @@
+@import '../../config/base/typography/blockquote-config';
+@import '../../theme/theme';
+blockquote {
+  padding: $blockquote-pad;
+  margin: $blockquote-marg;
+  font-size: $blockquote-fs;
+  border-left: $blockquote-border-lw $blockquote-border-ltype $c-grey-fourth;
+}
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+  margin-bottom: 0;
+}
+blockquote footer,
+blockquote small,
+blockquote .small {
+  display: block;
+  font-size: $blockquote-footer-fs;
+  line-height: $blockquote-footer-lh;
+  color: $c-grey-fifth;
+}
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: '\2014 \00A0';
+}
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: $blokcquote-reverse-pad-r;
+  padding-left: $blokcquote-reverse-pad-l;
+  border-right: $blockquote-border-lw $blockquote-border-ltype $c-grey-fourth;
+  border-left: 0;
+  text-align: right;
+}
+.blockquote-reverse footer:before,
+blockquote.pull-right footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right small:before,
+.blockquote-reverse .small:before,
+blockquote.pull-right .small:before {
+  content: '';
+}
+.blockquote-reverse footer:after,
+blockquote.pull-right footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right small:after,
+.blockquote-reverse .small:after,
+blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}

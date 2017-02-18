@@ -1,0 +1,46 @@
+.fw-100 {font-weight: 100;}
+.fw-300 {font-weight: 300;}
+.fw-400 {font-weight: 400;}
+.fw-600 {font-weight: 600;}
+.fw-700 {font-weight: 700;}
+.fw-900 {font-weight: 900;}
+@media all and (max-width: 575px) {
+    .xs-fw-100 {font-weight: 100;}
+    .xs-fw-300 {font-weight: 300;}
+    .xs-fw-400 {font-weight: 400;}
+    .xs-fw-600 {font-weight: 600;}
+    .xs-fw-700 {font-weight: 700;}
+    .xs-fw-900 {font-weight: 900;}
+}
+@media all and (min-width: 576px) {
+    .sm-fw-100 {font-weight: 100;}
+    .sm-fw-300 {font-weight: 300;}
+    .sm-fw-400 {font-weight: 400;}
+    .sm-fw-600 {font-weight: 600;}
+    .sm-fw-700 {font-weight: 700;}
+    .sm-fw-900 {font-weight: 900;}
+}
+@media all and (min-width: 768px) {
+    .md-fw-100 {font-weight: 100;}
+    .md-fw-300 {font-weight: 300;}
+    .md-fw-400 {font-weight: 400;}
+    .md-fw-600 {font-weight: 600;}
+    .md-fw-700 {font-weight: 700;}
+    .md-fw-900 {font-weight: 900;}
+}
+@media all and (min-width: 960px) {
+    .lg-fw-100 {font-weight: 100;}
+    .lg-fw-300 {font-weight: 300;}
+    .lg-fw-400 {font-weight: 400;}
+    .lg-fw-600 {font-weight: 600;}
+    .lg-fw-700 {font-weight: 700;}
+    .lg-fw-900 {font-weight: 900;}
+}
+@media all and (min-width: 1140px) {
+    .xl-fw-100 {font-weight: 100;}
+    .xl-fw-300 {font-weight: 300;}
+    .xl-fw-400 {font-weight: 400;}
+    .xl-fw-600 {font-weight: 600;}
+    .xl-fw-700 {font-weight: 700;}
+    .xl-fw-900 {font-weight: 900;}
+}

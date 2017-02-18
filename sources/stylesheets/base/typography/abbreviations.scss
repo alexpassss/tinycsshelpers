@@ -1,0 +1,11 @@
+@import '../../theme/theme';
+@import '../../config/base/typography/abbreviations-config.scss';
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: $abbreviation-border-b-w $abbreviation-border-b-type $c-grey-fifth;
+}
+.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}

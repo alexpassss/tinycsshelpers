@@ -1,0 +1,63 @@
+@import '../../config/base/typography/lists-config';
+@import '../../theme/theme';
+ul,ol {
+  margin-top: $list-marg-t;
+  margin-bottom: $list-marg-b;
+}
+ul ul,ol ul,
+ul ol,ol ol {
+  margin-bottom: $list-list-marg-b;
+}
+.list-unstyled {
+  padding-left: $list-unstyled-pad-l;
+  list-style: none;
+}
+.list-inline {
+  padding-left: $list-inline-pad-l;
+  list-style: none;
+  margin-left: $list-inline-marg-l;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-left: $list-inline-item-pad-l;
+  padding-right: $list-inline-item-pad-r;
+}
+dl {
+  margin-top: $dl-marg-t;
+  margin-bottom: $dl-marg-b;
+}
+dt,
+dd {
+  line-height: $dt-lh;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .dl-horizontal dt {
+    float: left;
+    width: $dl-horizontal-dt-w;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .dl-horizontal dd {
+    margin-left: $dl-horizontal-dd-marg-l;
+  }
+}
+.clearfix:before,
+.clearfix:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.dl-horizontal dd:after {
+  clear: both;
+}

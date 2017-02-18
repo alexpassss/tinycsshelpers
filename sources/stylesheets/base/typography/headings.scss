@@ -1,0 +1,43 @@
+@import '../../config/base/typography/headings-config';
+@import '../../theme/theme';
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: inherit;
+  font-weight: $h-fw;
+  line-height: $h-lh;
+  color: inherit;
+}
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,
+.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small,
+h1 .small,h2 .small,h3 .small,h4 .small,h5 .small,h6 .small,
+.h1 .small,.h2 .small,.h3 .small,.h4 .small,.h5 .small,.h6 .small {
+  font-weight: $h-small-fw;
+  line-height: $h-small-lh;
+  color: $c-grey-fifth;
+}
+h1,.h1,h2,.h2,h3,.h3 {
+  margin-top: $h3-marg-t;
+  margin-bottom: $h3-marg-b;
+}
+h1 small,.h1 small,h2 small,.h2 small,
+h3 small,.h3 small,h1 .small,.h1 .small,
+h2 .small,.h2 .small,h3 .small,.h3 .small {
+  font-size: $h3-small-fs;
+}
+h4,.h4,h5,.h5,h6,.h6 {
+  margin-top: $h6-marg-t;
+  margin-bottom: $h6-marg-b;
+}
+h4 small,.h4 small,h5 small,.h5 small,
+h6 small,.h6 small,h4 .small,.h4 .small,
+h5 .small,.h5 .small,h6 .small,.h6 .small {
+  font-size: $h6-small-fs;
+}
+h1,.h1 {font-size: $h1-fs;}
+h2,.h2 {font-size: $h2-fs;}
+h3,.h3 {font-size: $h3-fs;}
+h4,.h4 {font-size: $h4-fs;}
+h5,.h5 {font-size: $h5-fs;}
+h6,.h6 {font-size: $h6-fs;}
+
+small,.small {font-size: $small-fs;}
