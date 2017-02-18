@@ -1,0 +1,56 @@
+@import '../../config/base/typography/code-config';
+@import '../../theme/theme';
+code,
+kbd,
+pre,
+samp {
+  font-family: $code-font-family;
+}
+code {
+  padding: $code-pad;
+  font-size: $code-fs;
+  color: $c-grey-fifth;
+  background-color: $c-grey-ninth;
+  border-radius: $code-b-r;
+}
+kbd {
+  padding: $kbd-pad;
+  font-size: $kbd-fs;
+  color: $c-white;
+  background-color: $c-grey-first;
+  border-radius: $kbd-b-r;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+pre {
+  display: block;
+  padding: $pre-pad;
+  margin: $pre-marg;
+  font-size: $pre-fs;
+  line-height: $pre-lh;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: $c-grey-first;
+  background-color: $c-grey-tenth;
+  border: $pre-b;
+  border-radius: $pre-b-r;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
