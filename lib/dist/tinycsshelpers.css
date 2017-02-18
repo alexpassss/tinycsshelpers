@@ -449,6 +449,9 @@ template {
 [hidden] {
   display: none; }
 
+html, body {
+  font-family: "Open Sans"; }
+
 .clearfix:after {
   content: "";
   display: table;

@@ -36,6 +36,14 @@ module.exports = function(grunt) {
       }
     },
 
+    copy: {
+        main: {
+            files: [
+              {expand: true, cwd: 'sources/fonts/', src: ['**'], dest: 'lib/dist/fonts'}
+            ],
+        },
+    },
+
     watch: {
       sass: {
           files: '**/*.scss',
@@ -48,6 +56,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
@@ -55,7 +64,8 @@ module.exports = function(grunt) {
     'sass',
     'concat',
     'cssmin:minify',
-    'cssmin:release'
+    'cssmin:release',
+    'copy'
   ]);
   grunt.registerTask('reload', ['watch']);
 

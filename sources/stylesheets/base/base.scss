@@ -3,6 +3,10 @@
 @import '../theme/theme';
 @import '../config/base/base-config';
 
+html, body {
+    font-family: $base-font-family;
+}
+
 @import 'helpers/helpers';
 @import 'typography/typography';
 @import 'grids/grids';
