@@ -390,7 +390,7 @@
 mark, .t-marked {
   color: #2E2E2E;
   padding: .2em;
-  background-color: #DF9A62; }
+  background-color: #356089; }
 
 del, .t-del {
   text-decoration: line-through; }
@@ -423,7 +423,7 @@ i, em {
   color: #6E6E6E; }
 
 .t-primary {
-  color: #DF9A62; }
+  color: #356089; }
 
 .t-hide {
   font: 0/0 a;
@@ -1104,19 +1104,19 @@ a.c-white:hover, a.c-white:focus {
   color: #fff; }
 
 a.c-theme-1:hover, a.c-theme-1:focus {
-  color: #DF9A62; }
+  color: #356089; }
 
 a.c-theme-2:hover, a.c-theme-2:focus {
-  color: #C38E64; }
+  color: #80A1C1; }
 
 a.c-theme-3:hover, a.c-theme-3:focus {
-  color: #B8733D; }
+  color: #51799F; }
 
 a.c-theme-4:hover, a.c-theme-4:focus {
-  color: #E7A876; }
+  color: #204B75; }
 
 a.c-theme-5:hover, a.c-theme-5:focus {
-  color: #E7AF83; }
+  color: #0E365D; }
 
 a.c-theme-6:hover, a.c-theme-6:focus {
   color: #3C8885; }
