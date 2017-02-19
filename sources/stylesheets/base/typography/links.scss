@@ -1,28 +1,158 @@
 @import '../../theme/theme';
-a.c-black:hover, a.c-black:focus {color: $c-black;}
-a.c-grey-1:hover, a.c-grey-1:focus {color: $c-grey-first;}
-a.c-grey-2:hover, a.c-grey-2:focus {color: $c-grey-second;}
-a.c-grey-3:hover, a.c-grey-3:focus {color: $c-grey-third;}
-a.c-grey-4:hover, a.c-grey-4:focus {color: $c-grey-fourth;}
-a.c-grey-5:hover, a.c-grey-5:focus {color: $c-grey-fifth;}
-a.c-grey-6:hover, a.c-grey-6:focus {color: $c-grey-sixth;}
-a.c-grey-7:hover, a.c-grey-7:focus {color: $c-grey-seventh;}
-a.c-grey-8:hover, a.c-grey-8:focus {color: $c-grey-eighth;}
-a.c-grey-9:hover, a.c-grey-9:focus {color: $c-grey-ninth;}
-a.c-grey-10:hover, a.c-grey-10:focus {color: $c-grey-tenth;}
-a.c-white:hover, a.c-white:focus {color: $c-white;}
+a.c-black, .c-black a {
+    color: $c-black;
+    &:hover {color: $c-grey-first;}
+    &:focus {color: $c-black;}
+}
+a.c-grey-1, .c-grey-1 a  {
+    color: $c-grey-first;
+    &:hover {color: $c-black;}
+    &:focus {color: $c-grey-first;}
+}
+a.c-grey-2, .c-grey-2 a {
+    color: $c-grey-second;
+    &:hover {color: $c-grey-first;}
+    &:focus {color: $c-grey-second;}
+}
+a.c-grey-3, .c-grey-3 a {
+    color: $c-grey-third;
+    &:hover {color: $c-grey-second;}
+    &:focus {color: $c-grey-third;}
+}
+a.c-grey-4, .c-grey-4 a {
+    color: $c-grey-fourth;
+    &:hover {color: $c-grey-third;}
+    &:focus {color: $c-grey-fourth;}
+}
+a.c-grey-5, .c-grey-5 a {
+    color: $c-grey-fifth;
+    &:hover {color: $c-grey-fourth;}
+    &:focus {color: $c-grey-fifth;}
+}
+a.c-grey-6, .c-grey-6 a {
+    color: $c-grey-sixth;
+    &:hover {color: $c-grey-fifth;}
+    &:focus {color: $c-grey-sixth;}
+}
+a.c-grey-7, .c-grey-7 a {
+    color: $c-grey-seventh;
+    &:hover {color: $c-grey-sixth;}
+    &:focus {color: $c-grey-seventh;}
+}
+a.c-grey-8, .c-grey-8 a {
+    color: $c-grey-eighth;
+    &:hover {color: $c-grey-seventh;}
+    &:focus {color: $c-grey-eighth;}
+}
+a.c-grey-9, .c-grey-9 a {
+    color: $c-grey-ninth;
+    &:hover {color: $c-grey-eighth;}
+    &:focus {color: $c-grey-ninth;}
+}
+a.c-grey-10, .c-grey-10 a {
+    color: $c-grey-tenth;
+    &:hover {color: $c-grey-ninth;}
+    &:focus {color: $c-grey-tenth;}
+}
+a.c-white, .c-white a {
+    color: $c-white;
+    &:hover {color: $c-grey-tenth;}
+    &:focus {color: $c-white;}
+}
 
-a.c-theme-1:hover, a.c-theme-1:focus {color: $c-theme-first;}
-a.c-theme-2:hover, a.c-theme-2:focus {color: $c-theme-second;}
-a.c-theme-3:hover, a.c-theme-3:focus {color: $c-theme-third;}
-a.c-theme-4:hover, a.c-theme-4:focus {color: $c-theme-fourth;}
-a.c-theme-5:hover, a.c-theme-5:focus {color: $c-theme-fifth;}
-a.c-theme-6:hover, a.c-theme-6:focus {color: $c-theme-sixth;}
-a.c-theme-7:hover, a.c-theme-7:focus {color: $c-theme-seventh;}
-a.c-theme-8:hover, a.c-theme-8:focus {color: $c-theme-eighth;}
-a.c-theme-9:hover, a.c-theme-9:focus {color: $c-theme-ninth;}
-a.c-theme-10:hover, a.c-theme-10:focus {color: $c-theme-tenth;}
+a.c-theme-1, .c-theme-1 a {
+    color: $c-theme-first;
+    &:hover {color: $c-theme-second;}
+    &:focus {color: $c-theme-first;}
+}
+a.c-theme-2, .c-theme-2 a {
+    color: $c-theme-second;
+    &:hover {color: $c-theme-first;}
+    &:focus {color: $c-theme-second;}
+}
+a.c-theme-3, .c-theme-3 a {
+    color: $c-theme-third;
+    &:hover {color: $c-theme-second;}
+    &:focus {color: $c-theme-third;}
+}
+a.c-theme-4, .c-theme-4 a {
+    color: $c-theme-fourth;
+    &:hover {color: $c-theme-third;}
+    &:focus {color: $c-theme-fourth;}
+}
+a.c-theme-5, .c-theme-5 a {
+    color: $c-theme-fifth;
+    &:hover {color: $c-theme-fourth;}
+    &:focus {color: $c-theme-fifth;}
+}
+a.c-theme-6, .c-theme-6 a {
+    color: $c-theme-sixth;
+    &:hover {color: $c-theme-fifth;}
+    &:focus {color: $c-theme-sixth;}
+}
+a.c-theme-7, .c-theme-7 a {
+    color: $c-theme-seventh;
+    &:hover {color: $c-theme-sixth;}
+    &:focus {color: $c-theme-seventh;}
+}
+a.c-theme-8, .c-theme-8 a {
+    color: $c-theme-eighth;
+    &:hover {color: $c-theme-seventh;}
+    &:focus {color: $c-theme-eighth;}
+}
+a.c-theme-9, .c-theme-9 a {
+    color: $c-theme-ninth;
+    &:hover {color: $c-theme-eighth;}
+    &:focus {color: $c-theme-ninth;}
+}
+a.c-theme-10, .c-theme-10 a {
+    color: $c-theme-tenth;
+    &:hover {color: $c-theme-ninth;}
+    &:focus {color: $c-theme-tenth;}
+}
 
-a.c-success:hover, a.c-success:focus {color: $c-success;}
-a.c-warning:hover, a.c-warning:focus {color: $c-warning;}
-a.c-danger:hover, a.c-danger:focus {color: $c-danger;}
+a.c-success, .c-success a {
+    color: $c-success;
+    &:hover {color: $c-success;}
+    &:focus {color: $c-success;}
+}
+a.c-warning, .c-warning a {
+    color: $c-warning;
+    &:hover {color: $c-warning;}
+    &:focus {color: $c-warning;}
+}
+a.c-danger, .c-danger a {
+    color: $c-danger;
+    &:hover {color: $c-danger;}
+    &:focus {color: $c-danger;}
+}
+
+// Only hover stylesheets
+
+a.c-black-hover:hover, .c-black-hover a:hover { color: $c-black; }
+a.c-grey-1-hover:hover, .c-grey-1-hover a:hover  { color: $c-grey-first; }
+a.c-grey-2-hover:hover, .c-grey-2-hover a:hover { color: $c-grey-second; }
+a.c-grey-3-hover:hover, .c-grey-3-hover a:hover { color: $c-grey-third; }
+a.c-grey-4-hover:hover, .c-grey-4-hover a:hover { color: $c-grey-fourth; }
+a.c-grey-5-hover:hover, .c-grey-5-hover a:hover { color: $c-grey-fifth; }
+a.c-grey-6-hover:hover, .c-grey-6-hover a:hover { color: $c-grey-sixth; }
+a.c-grey-7-hover:hover, .c-grey-7-hover a:hover { color: $c-grey-seventh; }
+a.c-grey-8-hover:hover, .c-grey-8-hover a:hover { color: $c-grey-eighth; }
+a.c-grey-9-hover:hover, .c-grey-9-hover a:hover { color: $c-grey-ninth; }
+a.c-grey-10-hover:hover, .c-grey-10-hover a:hover { color: $c-grey-tenth; }
+a.c-white-hover:hover, .c-white-hover a:hover { color: $c-white; }
+
+a.c-theme-1-hover:hover, .c-theme-1-hover a:hover { color: $c-theme-first; }
+a.c-theme-2-hover:hover, .c-theme-2-hover a:hover { color: $c-theme-second; }
+a.c-theme-3-hover:hover, .c-theme-3-hover a:hover { color: $c-theme-third; }
+a.c-theme-4-hover:hover, .c-theme-4-hover a:hover { color: $c-theme-fourth; }
+a.c-theme-5-hover:hover, .c-theme-5-hover a:hover { color: $c-theme-fifth; }
+a.c-theme-6-hover:hover, .c-theme-6-hover a:hover { color: $c-theme-sixth; }
+a.c-theme-7-hover:hover, .c-theme-7-hover a:hover { color: $c-theme-seventh; }
+a.c-theme-8-hover:hover, .c-theme-8-hover a:hover { color: $c-theme-eighth; }
+a.c-theme-9-hover:hover, .c-theme-9-hover a:hover { color: $c-theme-ninth; }
+a.c-theme-10-hover:hover, .c-theme-10-hover a:hover { color: $c-theme-tenth; }
+
+a.c-success-hover:hover, .c-success-hover a:hover { color: $c-success; }
+a.c-warning-hover:hover, .c-warning-hover a:hover { color: $c-warning; }
+a.c-danger-hover:hover, .c-danger-hover a:hover { color: $c-danger; }
