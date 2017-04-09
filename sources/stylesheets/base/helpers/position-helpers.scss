@@ -10,17 +10,17 @@
 .pos-br {bottom: 0; right: 0;}
 .pos-bl {bottom: 0; left: 0;}
 @media all and (max-width: 575px) {
-    .xs-pos-relative {position: relative;}
-    .xs-pos-fixed {position: fixed;}
-    .xs-pos-absolute {position: absolute;}
-    .xs-pos-t {top: 0;}
-    .xs-pos-r {right: 0;}
-    .xs-pos-b {bottom: 0;}
-    .xs-pos-l {left: 0;}
-    .xs-pos-tr {top: 0; right: 0;}
-    .xs-pos-tl {top: 0; left: 0;}
-    .xs-pos-br {bottom: 0; right: 0;}
-    .xs-pos-bl {bottom: 0; left: 0;}
+    .xs-o-pos-relative {position: relative;}
+    .xs-o-pos-fixed {position: fixed;}
+    .xs-o-pos-absolute {position: absolute;}
+    .xs-o-pos-t {top: 0;}
+    .xs-o-pos-r {right: 0;}
+    .xs-o-pos-b {bottom: 0;}
+    .xs-o-pos-l {left: 0;}
+    .xs-o-pos-tr {top: 0; right: 0;}
+    .xs-o-pos-tl {top: 0; left: 0;}
+    .xs-o-pos-br {bottom: 0; right: 0;}
+    .xs-o-pos-bl {bottom: 0; left: 0;}
 }
 @media all and (min-width: 576px) {
     .sm-pos-relative {position: relative;}
@@ -35,6 +35,19 @@
     .sm-pos-br {bottom: 0; right: 0;}
     .sm-pos-bl {bottom: 0; left: 0;}
 }
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .sm-o-pos-relative {position: relative;}
+    .sm-o-pos-fixed {position: fixed;}
+    .sm-o-pos-absolute {position: absolute;}
+    .sm-o-pos-t {top: 0;}
+    .sm-o-pos-r {right: 0;}
+    .sm-o-pos-b {bottom: 0;}
+    .sm-o-pos-l {left: 0;}
+    .sm-o-pos-tr {top: 0; right: 0;}
+    .sm-o-pos-tl {top: 0; left: 0;}
+    .sm-o-pos-br {bottom: 0; right: 0;}
+    .sm-o-pos-bl {bottom: 0; left: 0;}
+}
 @media all and (min-width: 768px) {
     .md-pos-relative {position: relative;}
     .md-pos-fixed {position: fixed;}
@@ -48,7 +61,20 @@
     .md-pos-br {bottom: 0; right: 0;}
     .md-pos-bl {bottom: 0; left: 0;}
 }
-@media all and (min-width: 960px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .md-o-pos-relative {position: relative;}
+    .md-o-pos-fixed {position: fixed;}
+    .md-o-pos-absolute {position: absolute;}
+    .md-o-pos-t {top: 0;}
+    .md-o-pos-r {right: 0;}
+    .md-o-pos-b {bottom: 0;}
+    .md-o-pos-l {left: 0;}
+    .md-o-pos-tr {top: 0; right: 0;}
+    .md-o-pos-tl {top: 0; left: 0;}
+    .md-o-pos-br {bottom: 0; right: 0;}
+    .md-o-pos-bl {bottom: 0; left: 0;}
+}
+@media all and (min-width: 992px) {
     .lg-pos-relative {position: relative;}
     .lg-pos-fixed {position: fixed;}
     .lg-pos-absolute {position: absolute;}
@@ -61,7 +87,20 @@
     .lg-pos-br {bottom: 0; right: 0;}
     .lg-pos-bl {bottom: 0; left: 0;}
 }
-@media all and (min-width: 1140px) {
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .lg-o-pos-relative {position: relative;}
+    .lg-o-pos-fixed {position: fixed;}
+    .lg-o-pos-absolute {position: absolute;}
+    .lg-o-pos-t {top: 0;}
+    .lg-o-pos-r {right: 0;}
+    .lg-o-pos-b {bottom: 0;}
+    .lg-o-pos-l {left: 0;}
+    .lg-o-pos-tr {top: 0; right: 0;}
+    .lg-o-pos-tl {top: 0; left: 0;}
+    .lg-o-pos-br {bottom: 0; right: 0;}
+    .lg-o-pos-bl {bottom: 0; left: 0;}
+}
+@media all and (min-width: 1200px) {
     .xl-pos-relative {position: relative;}
     .xl-pos-fixed {position: fixed;}
     .xl-pos-absolute {position: absolute;}
