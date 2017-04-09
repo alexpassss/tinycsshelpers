@@ -1,21 +1,21 @@
 @import '../../theme/theme';
 .bord {
-    &-w1 {border-width: 1px;}
-    &-w2 {border-width: 2px;}
-    &-w3 {border-width: 3px;}
-    &-w4 {border-width: 4px;}
-    &-w5 {border-width: 5px;}
-    &-w10 {border-width: 10px;}
-    &-w15 {border-width: 15px;}
-    &-w20 {border-width: 20px;}
-    &-w25 {border-width: 25px;}
-    &-w30 {border-width: 30px;}
+    &-w-1 {border-width: 1px;}
+    &-w-2 {border-width: 2px;}
+    &-w-3 {border-width: 3px;}
+    &-w-4 {border-width: 4px;}
+    &-w-5 {border-width: 5px;}
+    &-w-10 {border-width: 10px;}
+    &-w-15 {border-width: 15px;}
+    &-w-20 {border-width: 20px;}
+    &-w-25 {border-width: 25px;}
+    &-w-30 {border-width: 30px;}
     &-round {border-radius: 100%;}
-    &-r2 {border-radius: 2px;}
-    &-r4 {border-radius: 4px;}
-    &-r6 {border-radius: 6px;}
-    &-r8 {border-radius: 8px;}
-    &-r10 {border-radius: 10px;}
+    &-r-2 {border-radius: 2px;}
+    &-r-4 {border-radius: 4px;}
+    &-r-6 {border-radius: 6px;}
+    &-r-8 {border-radius: 8px;}
+    &-r-10 {border-radius: 10px;}
     &-c-black {border-color: $c-black;}
     &-c-grey-1 {border-color: $c-grey-first;}
     &-c-grey-2 {border-color: $c-grey-second;}
@@ -50,21 +50,21 @@
     &-inset {border-style: inset;}
     &-outset {border-style: outset;}
     &-t {
-        &-w1 {border-top-width: 1px;}
-        &-w2 {border-top-width: 2px;}
-        &-w3 {border-top-width: 3px;}
-        &-w4 {border-top-width: 4px;}
-        &-w5 {border-top-width: 5px;}
-        &-w10 {border-top-width: 10px;}
-        &-w15 {border-top-width: 15px;}
-        &-w20 {border-top-width: 20px;}
-        &-w25 {border-top-width: 25px;}
-        &-w30 {border-top-width: 30px;}
-        &-r2 {border-top-radius: 2px;}
-        &-r4 {border-top-radius: 4px;}
-        &-r6 {border-top-radius: 6px;}
-        &-r8 {border-top-radius: 8px;}
-        &-r10 {border-top-radius: 10px;}
+        &-w-1 {border-top-width: 1px;}
+        &-w-2 {border-top-width: 2px;}
+        &-w-3 {border-top-width: 3px;}
+        &-w-4 {border-top-width: 4px;}
+        &-w-5 {border-top-width: 5px;}
+        &-w-10 {border-top-width: 10px;}
+        &-w-15 {border-top-width: 15px;}
+        &-w-20 {border-top-width: 20px;}
+        &-w-25 {border-top-width: 25px;}
+        &-w-30 {border-top-width: 30px;}
+        &-r-2 {border-top-radius: 2px;}
+        &-r-4 {border-top-radius: 4px;}
+        &-r-6 {border-top-radius: 6px;}
+        &-r-8 {border-top-radius: 8px;}
+        &-r-10 {border-top-radius: 10px;}
         &-c-black {border-top-color: $c-black;}
         &-c-grey-1 {border-top-color: $c-grey-first;}
         &-c-grey-2 {border-top-color: $c-grey-second;}
@@ -100,21 +100,21 @@
         &-outset {border-top-style: outset;}
     }
     &-r {
-        &-w1 {border-right-width: 1px;}
-        &-w2 {border-right-width: 2px;}
-        &-w3 {border-right-width: 3px;}
-        &-w4 {border-right-width: 4px;}
-        &-w5 {border-right-width: 5px;}
-        &-w10 {border-right-width: 10px;}
-        &-w15 {border-right-width: 15px;}
-        &-w20 {border-right-width: 20px;}
-        &-w25 {border-right-width: 25px;}
-        &-w30 {border-right-width: 30px;}
-        &-r2 {border-right-radius: 2px;}
-        &-r4 {border-right-radius: 4px;}
-        &-r6 {border-right-radius: 6px;}
-        &-r8 {border-right-radius: 8px;}
-        &-r10 {border-right-radius: 10px;}
+        &-w-1 {border-right-width: 1px;}
+        &-w-2 {border-right-width: 2px;}
+        &-w-3 {border-right-width: 3px;}
+        &-w-4 {border-right-width: 4px;}
+        &-w-5 {border-right-width: 5px;}
+        &-w-10 {border-right-width: 10px;}
+        &-w-15 {border-right-width: 15px;}
+        &-w-20 {border-right-width: 20px;}
+        &-w-25 {border-right-width: 25px;}
+        &-w-30 {border-right-width: 30px;}
+        &-r-2 {border-right-radius: 2px;}
+        &-r-4 {border-right-radius: 4px;}
+        &-r-6 {border-right-radius: 6px;}
+        &-r-8 {border-right-radius: 8px;}
+        &-r-10 {border-right-radius: 10px;}
         &-c-black {border-right-color: $c-black;}
         &-c-grey-1 {border-right-color: $c-grey-first;}
         &-c-grey-2 {border-right-color: $c-grey-second;}
@@ -150,21 +150,21 @@
         &-outset {border-right-style: outset;}
     }
     &-b {
-        &-w1 {border-bottom-width: 1px;}
-        &-w2 {border-bottom-width: 2px;}
-        &-w3 {border-bottom-width: 3px;}
-        &-w4 {border-bottom-width: 4px;}
-        &-w5 {border-bottom-width: 5px;}
-        &-w10 {border-bottom-width: 10px;}
-        &-w15 {border-bottom-width: 15px;}
-        &-w20 {border-bottom-width: 20px;}
-        &-w25 {border-bottom-width: 25px;}
-        &-w30 {border-bottom-width: 30px;}
-        &-r2 {border-bottom-radius: 2px;}
-        &-r4 {border-bottom-radius: 4px;}
-        &-r6 {border-bottom-radius: 6px;}
-        &-r8 {border-bottom-radius: 8px;}
-        &-r10 {border-bottom-radius: 10px;}
+        &-w-1 {border-bottom-width: 1px;}
+        &-w-2 {border-bottom-width: 2px;}
+        &-w-3 {border-bottom-width: 3px;}
+        &-w-4 {border-bottom-width: 4px;}
+        &-w-5 {border-bottom-width: 5px;}
+        &-w-10 {border-bottom-width: 10px;}
+        &-w-15 {border-bottom-width: 15px;}
+        &-w-20 {border-bottom-width: 20px;}
+        &-w-25 {border-bottom-width: 25px;}
+        &-w-30 {border-bottom-width: 30px;}
+        &-r-2 {border-bottom-radius: 2px;}
+        &-r-4 {border-bottom-radius: 4px;}
+        &-r-6 {border-bottom-radius: 6px;}
+        &-r-8 {border-bottom-radius: 8px;}
+        &-r-10 {border-bottom-radius: 10px;}
         &-c-black {border-bottom-color: $c-black;}
         &-c-grey-1 {border-bottom-color: $c-grey-first;}
         &-c-grey-2 {border-bottom-color: $c-grey-second;}
@@ -200,21 +200,21 @@
         &-outset {border-bottom-style: outset;}
     }
     &-l {
-        &-w1 {border-left-width: 1px;}
-        &-w2 {border-left-width: 2px;}
-        &-w3 {border-left-width: 3px;}
-        &-w4 {border-left-width: 4px;}
-        &-w5 {border-left-width: 5px;}
-        &-w10 {border-left-width: 10px;}
-        &-w15 {border-left-width: 15px;}
-        &-w20 {border-left-width: 20px;}
-        &-w25 {border-left-width: 25px;}
-        &-w30 {border-left-width: 30px;}
-        &-r2 {border-left-radius: 2px;}
-        &-r4 {border-left-radius: 4px;}
-        &-r6 {border-left-radius: 6px;}
-        &-r8 {border-left-radius: 8px;}
-        &-r10 {border-left-radius: 10px;}
+        &-w-1 {border-left-width: 1px;}
+        &-w-2 {border-left-width: 2px;}
+        &-w-3 {border-left-width: 3px;}
+        &-w-4 {border-left-width: 4px;}
+        &-w-5 {border-left-width: 5px;}
+        &-w-10 {border-left-width: 10px;}
+        &-w-15 {border-left-width: 15px;}
+        &-w-20 {border-left-width: 20px;}
+        &-w-25 {border-left-width: 25px;}
+        &-w-30 {border-left-width: 30px;}
+        &-r-2 {border-left-radius: 2px;}
+        &-r-4 {border-left-radius: 4px;}
+        &-r-6 {border-left-radius: 6px;}
+        &-r-8 {border-left-radius: 8px;}
+        &-r-10 {border-left-radius: 10px;}
         &-c-black {border-left-color: $c-black;}
         &-c-grey-1 {border-left-color: $c-grey-first;}
         &-c-grey-2 {border-left-color: $c-grey-second;}
@@ -277,16 +277,16 @@
 }
 @media all and (max-width: 575px) {
     .xs-o-bord {
-        &-w1 {border-width: 1px;}
-        &-w2 {border-width: 2px;}
-        &-w3 {border-width: 3px;}
-        &-w4 {border-width: 4px;}
-        &-w5 {border-width: 5px;}
-        &-w10 {border-width: 10px;}
-        &-w15 {border-width: 15px;}
-        &-w20 {border-width: 20px;}
-        &-w25 {border-width: 25px;}
-        &-w30 {border-width: 30px;}
+        &-w-1 {border-width: 1px;}
+        &-w-2 {border-width: 2px;}
+        &-w-3 {border-width: 3px;}
+        &-w-4 {border-width: 4px;}
+        &-w-5 {border-width: 5px;}
+        &-w-10 {border-width: 10px;}
+        &-w-15 {border-width: 15px;}
+        &-w-20 {border-width: 20px;}
+        &-w-25 {border-width: 25px;}
+        &-w-30 {border-width: 30px;}
     }
     .xs-o-no-bord {
         border-width: 0 !important;
@@ -298,16 +298,16 @@
 }
 @media all and (min-width: 576px) {
     .sm-bord {
-        &-w1 {border-width: 1px;}
-        &-w2 {border-width: 2px;}
-        &-w3 {border-width: 3px;}
-        &-w4 {border-width: 4px;}
-        &-w5 {border-width: 5px;}
-        &-w10 {border-width: 10px;}
-        &-w15 {border-width: 15px;}
-        &-w20 {border-width: 20px;}
-        &-w25 {border-width: 25px;}
-        &-w30 {border-width: 30px;}
+        &-w-1 {border-width: 1px;}
+        &-w-2 {border-width: 2px;}
+        &-w-3 {border-width: 3px;}
+        &-w-4 {border-width: 4px;}
+        &-w-5 {border-width: 5px;}
+        &-w-10 {border-width: 10px;}
+        &-w-15 {border-width: 15px;}
+        &-w-20 {border-width: 20px;}
+        &-w-25 {border-width: 25px;}
+        &-w-30 {border-width: 30px;}
     }
     .sm-no-bord {
         border-width: 0 !important;
@@ -319,16 +319,16 @@
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
     .sm-o-bord {
-        &-w1 {border-width: 1px;}
-        &-w2 {border-width: 2px;}
-        &-w3 {border-width: 3px;}
-        &-w4 {border-width: 4px;}
-        &-w5 {border-width: 5px;}
-        &-w10 {border-width: 10px;}
-        &-w15 {border-width: 15px;}
-        &-w20 {border-width: 20px;}
-        &-w25 {border-width: 25px;}
-        &-w30 {border-width: 30px;}
+        &-w-1 {border-width: 1px;}
+        &-w-2 {border-width: 2px;}
+        &-w-3 {border-width: 3px;}
+        &-w-4 {border-width: 4px;}
+        &-w-5 {border-width: 5px;}
+        &-w-10 {border-width: 10px;}
+        &-w-15 {border-width: 15px;}
+        &-w-20 {border-width: 20px;}
+        &-w-25 {border-width: 25px;}
+        &-w-30 {border-width: 30px;}
     }
     .sm-o-no-bord {
         border-width: 0 !important;
@@ -340,16 +340,16 @@
 }
 @media all and (min-width: 768px) {
     .md-bord {
-        &-w1 {border-width: 1px;}
-        &-w2 {border-width: 2px;}
-        &-w3 {border-width: 3px;}
-        &-w4 {border-width: 4px;}
-        &-w5 {border-width: 5px;}
-        &-w10 {border-width: 10px;}
-        &-w15 {border-width: 15px;}
-        &-w20 {border-width: 20px;}
-        &-w25 {border-width: 25px;}
-        &-w30 {border-width: 30px;}
+        &-w-1 {border-width: 1px;}
+        &-w-2 {border-width: 2px;}
+        &-w-3 {border-width: 3px;}
+        &-w-4 {border-width: 4px;}
+        &-w-5 {border-width: 5px;}
+        &-w-10 {border-width: 10px;}
+        &-w-15 {border-width: 15px;}
+        &-w-20 {border-width: 20px;}
+        &-w-25 {border-width: 25px;}
+        &-w-30 {border-width: 30px;}
     }
     .md-no-bord {
         border-width: 0 !important;
@@ -361,16 +361,16 @@
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
     .md-o-bord {
-        &-w1 {border-width: 1px;}
-        &-w2 {border-width: 2px;}
-        &-w3 {border-width: 3px;}
-        &-w4 {border-width: 4px;}
-        &-w5 {border-width: 5px;}
-        &-w10 {border-width: 10px;}
-        &-w15 {border-width: 15px;}
-        &-w20 {border-width: 20px;}
-        &-w25 {border-width: 25px;}
-        &-w30 {border-width: 30px;}
+        &-w-1 {border-width: 1px;}
+        &-w-2 {border-width: 2px;}
+        &-w-3 {border-width: 3px;}
+        &-w-4 {border-width: 4px;}
+        &-w-5 {border-width: 5px;}
+        &-w-10 {border-width: 10px;}
+        &-w-15 {border-width: 15px;}
+        &-w-20 {border-width: 20px;}
+        &-w-25 {border-width: 25px;}
+        &-w-30 {border-width: 30px;}
     }
     .md-o-no-bord {
         border-width: 0 !important;
@@ -382,16 +382,16 @@
 }
 @media all and (min-width: 992px) {
     .lg-bord {
-        &-w1 {border-width: 1px;}
-        &-w2 {border-width: 2px;}
-        &-w3 {border-width: 3px;}
-        &-w4 {border-width: 4px;}
-        &-w5 {border-width: 5px;}
-        &-w10 {border-width: 10px;}
-        &-w15 {border-width: 15px;}
-        &-w20 {border-width: 20px;}
-        &-w25 {border-width: 25px;}
-        &-w30 {border-width: 30px;}
+        &-w-1 {border-width: 1px;}
+        &-w-2 {border-width: 2px;}
+        &-w-3 {border-width: 3px;}
+        &-w-4 {border-width: 4px;}
+        &-w-5 {border-width: 5px;}
+        &-w-10 {border-width: 10px;}
+        &-w-15 {border-width: 15px;}
+        &-w-20 {border-width: 20px;}
+        &-w-25 {border-width: 25px;}
+        &-w-30 {border-width: 30px;}
     }
     .lg-no-bord {
         border-width: 0 !important;
@@ -403,16 +403,16 @@
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
     .lg-o-bord {
-        &-w1 {border-width: 1px;}
-        &-w2 {border-width: 2px;}
-        &-w3 {border-width: 3px;}
-        &-w4 {border-width: 4px;}
-        &-w5 {border-width: 5px;}
-        &-w10 {border-width: 10px;}
-        &-w15 {border-width: 15px;}
-        &-w20 {border-width: 20px;}
-        &-w25 {border-width: 25px;}
-        &-w30 {border-width: 30px;}
+        &-w-1 {border-width: 1px;}
+        &-w-2 {border-width: 2px;}
+        &-w-3 {border-width: 3px;}
+        &-w-4 {border-width: 4px;}
+        &-w-5 {border-width: 5px;}
+        &-w-10 {border-width: 10px;}
+        &-w-15 {border-width: 15px;}
+        &-w-20 {border-width: 20px;}
+        &-w-25 {border-width: 25px;}
+        &-w-30 {border-width: 30px;}
     }
     .lg-o-no-bord {
         border-width: 0 !important;
@@ -424,16 +424,16 @@
 }
 @media all and (min-width: 1200px) {
     .xl-bord {
-        &-w1 {border-width: 1px;}
-        &-w2 {border-width: 2px;}
-        &-w3 {border-width: 3px;}
-        &-w4 {border-width: 4px;}
-        &-w5 {border-width: 5px;}
-        &-w10 {border-width: 10px;}
-        &-w15 {border-width: 15px;}
-        &-w20 {border-width: 20px;}
-        &-w25 {border-width: 25px;}
-        &-w30 {border-width: 30px;}
+        &-w-1 {border-width: 1px;}
+        &-w-2 {border-width: 2px;}
+        &-w-3 {border-width: 3px;}
+        &-w-4 {border-width: 4px;}
+        &-w-5 {border-width: 5px;}
+        &-w-10 {border-width: 10px;}
+        &-w-15 {border-width: 15px;}
+        &-w-20 {border-width: 20px;}
+        &-w-25 {border-width: 25px;}
+        &-w-30 {border-width: 30px;}
     }
     .xl-no-bord {
         border-width: 0 !important;
