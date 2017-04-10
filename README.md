@@ -64,6 +64,7 @@
             1. [Width helpers](#width-helpers)
  1. [Rules for web designers](#rules-for-web-designers)
  1. [Maintance](#library-maintance)
+ 1. [Contribute & develop](#library-contribution)
  
 #### <a name="library-architecture"></a> Architecture & recommendations
 ###### Вам необхідно прочитати цю інформацію, якщо ви плануєте працювати з архітектурою бібліотеки. Якщо ж ви просто хочете використовувати бібліотеку не вдаючись в подробиці пропонованої архітектури - ви можете пропустити цей пункт. <br />
