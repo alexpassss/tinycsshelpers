@@ -227,6 +227,34 @@ $h6-fs: 12px;
 $small-fs: 85%;
 ```
 
+#### <a name="library-structure--base"></a> Base stylesheets 
+##### <a name="library-structure--base"></a> Grids
+
+Для полегшення інтеграції цієї бібліотеки з вже існуючими в проекті CSS frameworks в структуру бібліотеки ми включили наступні сітки:
+- Bootstrap 4 grid **(by default)** ([Documentation](https://v4-alpha.getbootstrap.com/layout/grid/)) 
+- Foundation grid ([Documentation](http://foundation.zurb.com/sites/docs/flex-grid.html)) 
+- Semantic UI grid ([Documentation](https://semantic-ui.com/collections/grid.html)) 
+
+Ми рекомендуємо використовувати Bootstrap 4 Grid, але також ми можете активувати будь-яку з вище вказаних, або додати свою.
+
+##### <a name="base--typography">Typography</a>
+###### <a name="typography__abbreviations">Abbreviations</a>
+###### <a name="typography__addresses">Addresses</a>
+###### <a name="typography__blockquote">Blockquote</a>
+###### <a name="typography__code">Code</a>
+###### <a name="typography__font-weight">Font weight</a>
+###### <a name="typography__fonts">Fonts</a>
+###### <a name="typography__headings">Headings</a>
+###### <a name="typography__inline-text-elements">Inline text elements</a>
+###### <a name="typography__line-height">Line height</a>
+###### <a name="typography__links">Lists</a>
+###### <a name="typography__paragraphs">Paragraphs</a>
+###### <a name="typography__size">Font size</a>
+###### <a name="typography__font-style">Font weight</a>
+
+
+
+
 
 
 
